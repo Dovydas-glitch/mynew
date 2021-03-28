@@ -3,17 +3,17 @@ html {
 	font-family: 'Libre Baskerville', serif;
   }
   html h1 {
-	font-size: 5rem;
+	font-size: 15px;
   }
   html h2 {
-	font-size: 3rem;
+	font-size: 15px;
   }
   html h3 {
-	font-size: 2rem;
+	font-size: 30px;
 	margin: 0;
   }
   html h4 {
-	font-size: 1rem;
+	font-size: 20px;
   }
   body {
 	margin: 0 auto;
@@ -58,11 +58,11 @@ html {
 	left: 15%;
   }
   header nav .button {
-	height: 2.2rem;
-	padding-left: 1rem;
-	padding-right: 1rem;
-	background-color: #0051ff;
-	border-radius: 0.321rem;
+	height: 29px;
+	padding-left: 1px;
+	padding-right: 1px;
+	background-color: greenyellow;
+	border-radius: 30px;
 	display: -webkit-box;
 	display: flex;
 	-webkit-box-pack: center;
@@ -72,19 +72,15 @@ html {
 	white-space: nowrap;
   }
   header nav .button a {
-	color: #fff;
+	color: rgb(0, 0, 0);
 	text-decoration: none;
   }
-  header nav .button:hover {
-	background-color: #0034a5;
-	-webkit-transform: scale(1.03);
-	transform: scale(1.03);
-  }
+  
   header nav .button a {
-	color: #fff;
+	color: rgb(0, 0, 0);
   }
   header nav .button:hover {
-	background-color: #0034a5;
+	background-color: greenyellow;
 	-webkit-transform: scale(1.03);
 	transform: scale(1.03);
   }
@@ -122,7 +118,7 @@ html {
   }
   header .cover_text h2 {
 	text-align: center;
-	color: #fff;
+	color: rgb(0, 0, 0);
 	font-size: 3rem;
   }
   header form {
@@ -135,11 +131,11 @@ html {
 	width: 30rem;
   }
   header form .button {
-	height: 2.2rem;
-	padding-left: 1rem;
-	padding-right: 1rem;
-	background-color: #0051ff;
-	border-radius: 0.321rem;
+	height: 29px;
+	padding-left: 1px;
+	padding-right: 1px;
+	background-color: greenyellow;
+	border-radius: 30px;
 	display: -webkit-box;
 	display: flex;
 	-webkit-box-pack: center;
@@ -147,13 +143,14 @@ html {
 	-webkit-box-align: center;
 	align-items: center;
 	white-space: nowrap;
+	
    }
   header form .button a {
-	color: #fff;
+	color: rgb(2, 2, 2);
 	text-decoration: none;
   }
   header form .button:hover {
-	background-color: #0034a5;
+	background-color: greenyellow;
 	-webkit-transform: scale(1.03);
 	transform: scale(1.03);
   }
@@ -212,7 +209,7 @@ html {
 	color: #4e4e4e;
   }
   main i {
-	color: #0051ff;
+	color: #000000;
 	margin-bottom: 1rem;
   }
   main .row3 {
@@ -286,11 +283,11 @@ html {
 	width: 25rem;
   }
   main .cover_text form .button {
-	height: 2.2rem;
-	padding-left: 1rem;
-	padding-right: 1rem;
-	background-color: #0051ff;
-	border-radius: 0.321rem;
+	height: 29px;
+	padding-left: 1px;
+	padding-right: 1px;
+	background-color: greenyellow;
+	border-radius: 30px;
 	display: -webkit-box;
 	display: flex;
 	-webkit-box-pack: center;
@@ -301,7 +298,7 @@ html {
   
   }
   main .cover_text form .button a {
-	color: #fff;
+	color: rgb(0, 0, 0);
 	text-decoration: none;
   }
   main .cover_text form .button:hover {
@@ -313,7 +310,7 @@ html {
 	height: 8rem;
 	display: -webkit-box;
 	display: flex;
-	background: #fff;
+	background: rgb(255, 251, 251);
   }
   footer .container_footer {
 	-webkit-box-flex: 1;
